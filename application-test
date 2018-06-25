@@ -1,2 +1,13 @@
-dev: 
-  test
+cykj:
+ config:
+  port:
+    port_a: 7010
+    port_b: 7011
+ eureka:
+  server:
+    server_a: com.cykj.eureka.server.a
+    server_b: com.cykj.eureka.server.b
+    server_c: com.cykj.eureka.server.c
+  port:
+    port_a: 9080
+    port_b: 9081
